@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+    <body>
+        <table>
+            <tr>
+                <th>task name</th>
+                <th>due date</th>
+                <th>task description</th>
+            </tr>
+            <% for(let i=0; i<mytask.length; i++) {%>
+                <tr>
+                    <td> <%= mytask[i].taskname %> </td>
+                    <td> <%= mytask[i].duedate %></td>
+                    <td> <%= mytask[i].discription %></td>
+                </tr>
+            <%}%>
+        </table>
+        <h1>click<a href="/">here</a> to return</h1>
+    </body>
+</html>
